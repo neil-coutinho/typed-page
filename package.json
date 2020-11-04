@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/neil-coutinho/typed-page/issues"
   },
-  "homepage": "https://github.com/neil-coutinho/typed-page#readme"
+  "homepage": "https://github.com/neil-coutinho/typed-page#readme",
+  "dependencies": {
+    "parcel": "^1.12.4"
+  },
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "not IE_Mob 11",
+    "maintained node versions"
+  ]
 }
